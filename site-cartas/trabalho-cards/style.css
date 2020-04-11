@@ -12,10 +12,12 @@ body {
 }
 .cards {
     display: inline-block;
+    position: relative;
+    top: 90px;
     width: 270px;
     height: 360px;
     border-radius: 30px;
-    margin: 120px 30px 30px 30px;
+    margin: 30px;
     background-color: #eeeeee;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
     font-family: ProductSans, sans-serif;
