@@ -1,0 +1,65 @@
+@charset "UTF-8";
+@font-face {
+    font-family: ProductSans;
+    src: url("ProductSansRegular.ttf");
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #303030;
+}
+.cards {
+    display: inline-block;
+    width: 270px;
+    height: 360px;
+    border-radius: 30px;
+    margin: 120px 30px 30px 30px;
+    background-color: #eeeeee;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+    font-family: ProductSans, sans-serif;
+    text-align: center;
+}
+.img {
+    display: flex;
+    height: 150px;
+    background-color: #ffe76b;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.textos {margin: 15px}
+.bot {
+    bottom: 0;
+    margin: 0;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    height: 54px;
+    background-color: #db3d30;
+}
+.bot .desc {
+    display: inline-block;
+    position: relative;
+    top: 9%;
+    color: rgb(255, 255, 255);
+    margin: 9px;
+    font-size: 18px;
+}
+
+.textos h2 {font-size: 12pt; margin: 3px}
+.textos h1 {font-size: 15pt; margin: 6px}
+.textos p  {font-size: 15px; margin: 6px}
+
+#bugatti {color: rgb(30, 60, 180)}
+#koenigsegg {color: rgb(210, 60, 30)}
+#hennessey {color: rgb(30, 120, 30)}
+
+#desc1 {background-color: rgb(30, 60, 180)}
+#desc2 {background-color: rgb(210, 60, 30)}
+#desc3 {background-color: rgb(30, 120, 30)}
+
+.cards:hover {
+    transform: scale(1.2);
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.9);
+    transition: 900ms;
+}
