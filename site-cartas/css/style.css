@@ -10,6 +10,7 @@ body {
     justify-content: center;
     background-color: #303030;
 }
+
 .cards {
     display: inline-block;
     position: relative;
@@ -23,6 +24,7 @@ body {
     font-family: ProductSans, sans-serif;
     text-align: center;
 }
+
 .img {
     display: flex;
     height: 150px;
@@ -30,7 +32,11 @@ body {
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
-.textos {margin: 15px}
+
+.textos {
+    margin: 15px
+}
+
 .bot {
     bottom: 0;
     margin: 0;
@@ -39,6 +45,7 @@ body {
     height: 54px;
     background-color: #996633;
 }
+
 .bot .desc {
     display: inline-block;
     position: relative;
@@ -48,6 +55,7 @@ body {
     color: rgb(255, 255, 255);
     font-size: 13px;
 }
+
 .bot .item {
     display: inline-block;
     position: relative;
@@ -58,27 +66,66 @@ body {
     font-family: "Roboto Light", sans-serif;
     text-transform: uppercase;
 }
-#d1,#d2,#d3 {
+
+#d1,
+#d2,
+#d3 {
     padding: 0 3px;
     border-left: 3px rgba(0, 0, 0, 0.1) solid;
     border-right: 3px rgba(0, 0, 0, 0.1) solid;
 }
 
-.textos h2 {font-size: 12pt; margin: 3px}
-.textos h1 {font-size: 15pt; margin: 6px}
-.textos p  {font-size: 15px; margin: 6px; color: rgb(60, 60, 60)}
+.textos h2 {
+    font-size: 12pt;
+    margin: 3px
+}
 
-#img-bugatti {background: url("../imagens/bugatti.jpg")}
-#img-one {background: url("../imagens/one.jpg")}
-#img-venom {background: url("../imagens/venom.jpg")}
+.textos h1 {
+    font-size: 15pt;
+    margin: 6px
+}
 
-#bugatti {color: rgb(30, 60, 180)}
-#koenigsegg {color: rgb(210, 60, 30)}
-#hennessey {color: rgb(30, 120, 30)}
+.textos p {
+    font-size: 15px;
+    margin: 6px;
+    color: rgb(60, 60, 60)
+}
 
-#desc1 {background-color: rgb(30, 60, 180)}
-#desc2 {background-color: rgb(210, 60, 30)}
-#desc3 {background-color: rgb(30, 120, 30)}
+#img-bugatti {
+    background: url("../imagens/bugatti.jpg")
+}
+
+#img-one {
+    background: url("../imagens/one.jpg")
+}
+
+#img-venom {
+    background: url("../imagens/venom.jpg")
+}
+
+#bugatti {
+    color: rgb(30, 60, 180)
+}
+
+#koenigsegg {
+    color: rgb(210, 60, 30)
+}
+
+#hennessey {
+    color: rgb(30, 120, 30)
+}
+
+#desc1 {
+    background-color: rgb(30, 60, 180)
+}
+
+#desc2 {
+    background-color: rgb(210, 60, 30)
+}
+
+#desc3 {
+    background-color: rgb(30, 120, 30)
+}
 
 .cards:hover {
     transform: scale(1.2);
