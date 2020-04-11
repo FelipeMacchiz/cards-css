@@ -42,21 +42,21 @@ body {
 .bot .desc {
     display: inline-block;
     position: relative;
+    width: 60px;
+    margin: 9px;
     top: 6%;
     color: rgb(255, 255, 255);
-    margin: 9px;
-    font-size: 18px;
+    font-size: 13px;
 }
 .bot .item {
     display: inline-block;
     position: relative;
-    bottom: 12px;
+    width: 60px;
+    bottom: 0;
     color: #eeeeee;
     font-size: 9px;
-    font-weight: 100;
     font-family: "Roboto Light", sans-serif;
     text-transform: uppercase;
-    margin: 9px;
 }
 
 .textos h2 {font-size: 12pt; margin: 3px}
