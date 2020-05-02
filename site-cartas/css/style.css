@@ -27,6 +27,7 @@ body {
     font-family: ProductSans, sans-serif;
     text-align: center;
     flex-shrink: 0;
+    transition: 900ms;
 }
 
 .img {
@@ -134,5 +135,4 @@ body {
 .cards:hover {
     transform: scale(1.2);
     box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.9);
-    transition: 900ms;
 }
